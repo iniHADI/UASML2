@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/simulasi"
+    tools:context=".SimulasiModelActivity">
+
+  <EditText
+      android:id="@+id/et_age"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Age (29 - 77)"
+      android:inputType="number" />
+
+  <EditText
+      android:id="@+id/et_sex"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="sex (0 - 1)"
+      android:inputType="numberDecimal" />
+
+  <EditText
+      android:id="@+id/et_cp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="cp (0 - 3)"
+      android:inputType="number" />
+
+  <EditText
+      android:id="@+id/et_trtbps"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="trtbps (94 - 200)"
+      android:inputType="number" />
+
+  <EditText
+      android:id="@+id/et_chol"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="chol (126 - 564)"
+      android:inputType="number" />
+
+  <EditText
+      android:id="@+id/et_fbs"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="fbs (0 - 1)"
+      android:inputType="number" />
+
+
+  <EditText
+      android:id="@+id/et_restecg"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="restecg (0 - 2)"
+      android:inputType="number" />
+
+  <EditText
+      android:id="@+id/et_talachh"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="talachh (71 - 202)"
+      android:inputType="number" />
+
+  <EditText
+      android:id="@+id/et_exng"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="exng (0 - 1)"
+      android:inputType="number" />
+
+  <EditText
+      android:id="@+id/et_oldpeak"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="oldpeak (0 - 6.2)"
+      android:inputType="numberDecimal" />
+
+  <EditText
+      android:id="@+id/et_slp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="slp (0 - 2)"
+      android:inputType="number" />
+
+  <EditText
+      android:id="@+id/et_caa"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="caa (0 - 4)"
+      android:inputType="number" />
+
+  <EditText
+      android:id="@+id/et_thaall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="thaall (0 - 3)"
+      android:inputType="number" />
+
+  <Button
+      android:id="@+id/btn_cek"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="cek" />
+
+  <TextView
+      android:id="@+id/txtresult"
+      android:layout_width="379dp"
+      android:layout_height="33dp"
+      android:text="resultText" />
+
+</LinearLayout>
